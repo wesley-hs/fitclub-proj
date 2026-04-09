@@ -1,0 +1,18 @@
+### Criar um novo Aluno
+POST http://localhost:8080/alunos
+Content-Type: application/json
+
+{
+  "nome": "Adão Silva",
+  "cpf": "132.654.789-00"
+}
+
+### Criar um treino para o aluno
+POST http://localhost:8080/treinos
+Content-Type: application/json
+
+{
+  "alunoId": "69d7aaf10b3d2bb89ac34173",
+  "nomeDoTreino": "Treino de Adaptação",
+  "exercicios": ["Esteira 30min", "Agachamento", "Supino"]
+}
