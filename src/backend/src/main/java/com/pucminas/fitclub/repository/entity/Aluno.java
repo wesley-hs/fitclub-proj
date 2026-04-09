@@ -11,5 +11,6 @@ public class Aluno {
     private String id;
     private String nome;
     private String cpf;
-    private String planoId; //Onde vincula o Aluno ao Plano
+    private String planoId;
+    private String email;//Onde vincula o Aluno ao Plano
 }
